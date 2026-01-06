@@ -21,9 +21,9 @@ import java.util.TimerTask;
 
 // individual hole where the mole can pop out
 class HolePane extends StackPane {
-    private Image empty = new Image("file:04-GUI-Whack-A-Mole/images/empty.png");
-    private Image out = new Image("file:04-GUI-Whack-A-Mole/images/out.png");
-    private Image in = new Image("file:04-GUI-Whack-A-Mole/images/in.png");
+    private Image empty = new Image("file:images/empty.png");
+    private Image out = new Image("file:images/out.png");
+    private Image in = new Image("file:images/in.png");
     private ImageView view = new ImageView(empty);
     private Text text = new Text("");
 
